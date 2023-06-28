@@ -12,6 +12,8 @@ type DivisionByZero struct {
 	funcName string
 }
 
+//
+
 // implement the Error method
 func (derr *DivisionByZero) Error() string {
 	return derr.msg
